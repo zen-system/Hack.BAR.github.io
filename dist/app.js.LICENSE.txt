@@ -1,1 +1,0 @@
-/*! @source http://purl.eligrey.com/github/classList.js/blob/master/classList.js */
