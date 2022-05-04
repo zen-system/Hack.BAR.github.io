@@ -4,7 +4,7 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "build": "webpack",
+    "build": "yarn run build",
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "webpack serve --open",
     "watch": "webpack --progress --watch"
