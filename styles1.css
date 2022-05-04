@@ -1,0 +1,27 @@
+
+/**
+ * That markdown on the left doesn't look great. Let's render it.
+ */
+
+#work-text.flipped {
+  -webkit-transform: rotateX(0deg) rotateY(190deg) rotateZ(180deg);
+}
+
+#work-text .md {
+  -webkit-transform: rotateY(190deg) rotateZ(180deg);
+  margin-top: 800px;
+}
+
+/**
+ * Alright. We're ready.
+ *
+ * 3...
+ * 2...
+ * 1...
+ *
+ * .
+ * ....faked you out.
+ *
+ * Okay here we go!
+ *
+ */

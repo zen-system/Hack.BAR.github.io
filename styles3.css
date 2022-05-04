@@ -1,0 +1,43 @@
+
+/**
+ * We're almost done.
+ */
+
+ pre:hover{
+   box-shadow: 0px 0px 40px 5px rgba(255,255,255,0.4);
+ }
+
+ #skip-animation, #pause-resume {
+   display: none;
+ }
+
+/**
+ * By the way, you can edit this box. Try adding new CSS!
+ *
+ * For example,
+ *
+ * The property 'text-shadow' takes the parameters:
+ * 'x', 'y', 'blur', 'color'.
+ *
+ * So if I wanted to mirror the values,
+ * I could place a shadow 15px under it,
+ * with a little blur for effect:
+ */
+
+.value {
+  text-shadow: 0px 15px 1px white;
+}
+
+/**
+ * Try it out! There's lots you can do.
+ * Try playing with text sizes, shadows, animations, or just
+ * break the page. I won't hold it against you.
+ */
+
+
+/**
+ * Dear genius engineers.
+ * We look forward to welcoming you at the Hack.BAR!
+
+ */
+
