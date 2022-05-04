@@ -4,12 +4,12 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "build": "webpack",
+    "build": "webpack --mode production",
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "webpack serve --open",
     "watch": "webpack --progress --watch"
   },
-  "author": "Shouhi Ide <shouhi605@gmail.com> (https://shouhi-portfolio.vercel.app/)",
+  "author": "Shouhi Ide <shouhi605@gmail.com> (https://shouhi.vercel.app/)",
   "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.14.0",
