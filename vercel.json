@@ -1,0 +1,21 @@
+{
+    "version": 2,
+    "builds": [
+      {
+        "src": "webpack.config.ts",
+        "config": {
+          "serverFiles": ["package.json"]
+        }
+      }
+    ],
+    "routes": [
+      {
+        "src": "/app.js",
+        "continue": true,
+        "headers": {
+          "Cache-Control": "public, max-age=0, must-revalidate",
+          "Service-Worker-Allowed": "/"
+        }
+      }
+    ]
+  }
