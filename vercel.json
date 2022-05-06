@@ -2,20 +2,14 @@
     "version": 2,
     "builds": [
       {
-        "src": "webpack.config.ts",
-        "config": {
-          "serverFiles": ["package.json"]
-        }
+        "src": "dist/app.js",
+        "use": "@vercel/node"
       }
     ],
     "routes": [
       {
-        "src": "/app.js",
-        "continue": true,
-        "headers": {
-          "Cache-Control": "public, max-age=0, must-revalidate",
-          "Service-Worker-Allowed": "/"
-        }
+        "src": "/.*",
+        "dest": "/dist/app.js"
       }
     ]
   }
