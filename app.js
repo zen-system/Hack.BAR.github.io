@@ -13,7 +13,7 @@ import getPrefix from './lib/getPrefix';
 
 
 const isDev = window.location.hostname === 'localhost';
-const speed = isDev ? 0 : 16; // speed text ローカル環境でスピード長いの邪魔だった
+const speed = 16; 
 let style, styleEl, workEl, pgpEl, skipAnimationEl, pauseEl;
 let animationSkipped = false, done = false, paused = false;
 let browserPrefix;
