@@ -13,7 +13,7 @@ import getPrefix from './lib/getPrefix';
 
 
 const isDev = window.location.hostname === 'localhost';
-const speed = 16; 
+const speed = 0; 
 let style, styleEl, workEl, pgpEl, skipAnimationEl, pauseEl;
 let animationSkipped = false, done = false, paused = false;
 let browserPrefix;
