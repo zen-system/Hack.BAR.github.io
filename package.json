@@ -31,6 +31,7 @@
     "@babel/runtime": "^7.14.0",
     "bluebird": "^3.7.2",
     "classlist-polyfill": "^1.0.1",
+    "html-webpack-plugin": "^5.5.0",
     "markdown": "^0.5.0",
     "mouse-wheel": "^1.0.2",
     "util": "^0.12.3"
