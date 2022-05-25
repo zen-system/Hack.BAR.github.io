@@ -36,7 +36,7 @@ At Hack.BAR I care about:
 
 Let's setup Hack.BAR locally. First you need to setup the services required to run the Hack.BAR applications, then you can run the application you want. Follow up the setups below to quickly get started.
 
-## ⚙️ Setting Up Daily Services
+## ⚙️ Setting Up Hack.BAR's Homepage
 
 ### → STEP #0
 
