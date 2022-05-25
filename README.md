@@ -65,6 +65,26 @@ git clone git@github.com:shouhi/Hack.BAR.github.io.git
 
 ### → STEP #2
 
+> uncomment this line in the code
+
+````
+/index.html
+````
+```javascript
+<head>
+    <meta charset="UTF-8">
+    <title>Hack.BAR ~Enginner's BAR ~</title>
+    <style id="style-tag"></style>
+    <!-- <script src="dist/app.js"></script> -->   → uncomment this line
+    <link rel="icon" type="image/png" sizes="32x32" href="/ico/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/ico/favicon-16x16.png">
+    <link rel="shortcut icon" href="/ico/favicon.ico" type="image/x-icon" />
+  </head>
+```
+
+
+### → STEP #3
+
 > Installation of dependencies
 
 Open a terminal and install the dependencies using the following command. This completes the environment setup.
@@ -74,6 +94,15 @@ yarn
 ```
 
 The command will take a while depending upon your internet speed.
+
+### → STEP #4
+
+> Develop
+
+```
+yarn dev 
+```
+Starts up on localhost:3000
 
 ## 🙌 Want to Contribute?
 
