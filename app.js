@@ -10,6 +10,7 @@ import preStyles from 'raw-loader!./prestyles.css';
 import replaceURLs from './lib/replaceURLs';
 import {default as writeChar, writeSimpleChar, handleChar} from './lib/writeChar';
 import getPrefix from './lib/getPrefix';
+import  cheet  from 'cheet.js';
 
 
 const isDev = window.location.hostname === 'localhost';
@@ -24,7 +25,34 @@ document.addEventListener("DOMContentLoaded", function() {
   getEls();
   createEventHandlers();
   startAnimation();
+  cheetAnimation();
 });
+
+async function cheetAnimation() {
+  var sequences = {
+    cross: 'up down left right',
+    circle: 'left up right down',
+
+  };
+  
+  await cheet(sequences.cross);
+  await cheet(sequences.circle);
+
+  await cheet.done(function (seq) {
+    console.log(seq)
+    switch(seq) {
+      case sequences.circle:
+        
+        alert('complete');
+        break
+      case sequences.cross:
+        alert('complete2');
+        break
+      default:
+        alert('失敗')
+    }
+  });
+}
 
 async function startAnimation() {
   try {
