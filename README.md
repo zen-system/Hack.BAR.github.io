@@ -112,6 +112,8 @@ We are open to all kinds of contributions. If you want to:
 * 📖 Improve documentation
 * 👨‍💻 Contribute to the code
 
+#### If your code is merged , We will give you a drink coupon.
+
 ## 🎩 Core Team
 
 Meet the core team of daily.dev:
