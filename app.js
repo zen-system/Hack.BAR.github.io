@@ -28,32 +28,6 @@ document.addEventListener("DOMContentLoaded", function() {
   cheetAnimation();
 });
 
-async function cheetAnimation() {
-  var sequences = {
-    cross: 'up down left right',
-    circle: 'left up right down',
-
-  };
-  
-  await cheet(sequences.cross);
-  await cheet(sequences.circle);
-
-  await cheet.done(function (seq) {
-    console.log(seq)
-    switch(seq) {
-      case sequences.circle:
-        
-        alert('complete');
-        break
-      case sequences.cross:
-        alert('complete2');
-        break
-      default:
-        alert('失敗')
-    }
-  });
-}
-
 async function startAnimation() {
   try {
     await writeTo(styleEl, styleText[0], 0, speed, true, 1);
@@ -220,4 +194,40 @@ function createWorkBox() {
     // Scroll. If we've flipped, flip the scroll direction.
     workEl.scrollTop += (dy * (flipped ? -1 : 1));
   }, true);
+}
+
+
+
+// function deteleWorkText() {
+//   console.log(workHTML);
+  
+// }
+
+// command play it!!!
+async function cheetAnimation() {
+  var sequences = {
+    cross: 'up down left right',
+    circle: 'left up right down',
+  };
+  
+  await cheet(sequences.cross);
+  await cheet(sequences.circle);
+
+  await cheet.done(function (seq) {
+    console.log(seq)
+    switch(seq) {
+      case sequences.circle:
+        
+        alert('complete');
+        break
+      case sequences.cross:
+        // deteleWorkText()
+        const workHTML = document.getElementById('content')
+        workHTML.innerHTML = ""
+        console.log('complete')
+        break
+      default:
+        alert('失敗')
+    }
+  });
 }
