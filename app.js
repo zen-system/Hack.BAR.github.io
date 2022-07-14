@@ -197,12 +197,17 @@ function createWorkBox() {
 }
 
 
+
+// function deteleWorkText() {
+//   console.log(workHTML);
+  
+// }
+
 // command play it!!!
 async function cheetAnimation() {
   var sequences = {
     cross: 'up down left right',
     circle: 'left up right down',
-
   };
   
   await cheet(sequences.cross);
@@ -216,7 +221,10 @@ async function cheetAnimation() {
         alert('complete');
         break
       case sequences.cross:
-        alert('complete2');
+        // deteleWorkText()
+        const workHTML = document.getElementById('content')
+        workHTML.innerHTML = ""
+        console.log('complete')
         break
       default:
         alert('失敗')
