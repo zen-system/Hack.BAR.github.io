@@ -116,8 +116,12 @@ We are open to all kinds of contributions. If you want to:
 
 ## 🎩 Core Team
 
-Meet the core team of daily.dev:
-* [@shouhi_ide](https://twitter.com/shouhi_ide)
+Meet the core team of Hack.BAR:
+<table>
+  <tr>
+    <td align="center"><a href="https://twitter.com/shouhi_ide"><img src="https://user-images.githubusercontent.com/63713624/123041698-9f3c9b00-d430-11eb-8faf-e98e27e347db.jpg" width="100px;" alt=""/><br /><sub><b>井手翔陽</b></sub></a><br /><a href="https://github.com/MAGIE-COMPANY-Inc/Hack.BAR.github.io/commits?author=shouhi" title="Documentation">📖</a> <a href="#projectManagement-shouhi" title="Project Management">📆</a>
+    </td>
+</table>
 
 Feel free to reach out to us and say hi 👋.
 
