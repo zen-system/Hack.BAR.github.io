@@ -20,6 +20,9 @@
 
 > 神戸三ノ宮駅から徒歩5分。「エンジニアが集まるバー」 Hack.BAR in hanaです。 フロント・サーバ・インフラ各業種のエンジニアが集っていろんな会話が繰り広げられます。また、パソコンを開いてお酒と共に書くコードはいかがでしょうか？？
 
+## 🚪 Opening Hours
+- Fri - Sat: 18:00 ~ 23:00 (LO:22:30)
+
 At Hack.BAR I care about:
 
 * 🗣 **Communication**: Whether the engineer, the customer and the staff can maintain good relations and enjoyable conversations..
@@ -60,7 +63,7 @@ npm install -g yarn
 
 > Clone the [apps](git@github.com:shouhi/Hack.BAR.github.io.git) repo.
 ```
-git clone git@github.com:shouhi/Hack.BAR.github.io.git
+git clone git@github.com:MAGIE-COMPANY-Inc/Hack.BAR.github.io.git
 ```
 
 ### → STEP #2
